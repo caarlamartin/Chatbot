@@ -1,0 +1,24 @@
+{"intents":[
+    {
+        "tag": "saludo",
+        "patterns": ["hola", "qué tal", "cómo estás", "bien y tu"],
+        "responses": ["Hola!", "Buenos dias!", "¿Como estas?", "Bien"]
+    },
+    {
+        "tag": "nombre",
+        "patterns": ["cómo es tu nombre", "cómo te llamas"],
+        "responses": ["Me llamo Carla", "Mi nombre es Carla"]
+    },
+    {
+        "tag": "estudio",
+        "patterns":["que estudias", "donde estudias"],
+        "responses":["Estudio Estadistica", "Estudio en la UGR"]
+    },
+    {
+        "tag": "despedida",
+        "patterns": ["adios", "hasta luego", "nos vemos"],
+        "responses": ["¡Adios!", "¡Cuidate!", "¡Hasta la proxima!"]
+    }
+]
+
+}
